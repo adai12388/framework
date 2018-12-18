@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/test_group_other">
+
+        <item
+            android:id="@+id/test_menu_fuli"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/test_welfare" />
+
+        <item
+            android:id="@+id/test_menu_about_us"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/test_about_us" />
+
+        <item
+            android:id="@+id/test_menu_logout"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="@string/test_logout" />
+
+    </group>
+</menu>

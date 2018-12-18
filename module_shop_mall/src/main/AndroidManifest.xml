@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.framework.yison.module_shop_mall">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- android:launchMode="singleTask" -->
+        <activity android:name="com.framework.yison.module_shop_mall.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.framework.yison.module_shop_mall.activity.MainActivity" />
+        <activity android:name="com.framework.yison.module_shop_mall.activity.HomeActivity" />
+        <activity android:name="com.framework.yison.module_shop_mall.activity.ArticleDetailActivity" />
+        <activity android:name="com.framework.yison.module_shop_mall.activity.KnowledgeDetailActivity" />
+        <activity android:name="com.framework.yison.module_shop_mall.activity.MvcTestActivity" />
+        <activity android:name="com.framework.yison.module_shop_mall.activity.MvpTestActivity"></activity>
+    </application>
+
+</manifest>

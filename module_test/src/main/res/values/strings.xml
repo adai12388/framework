@@ -1,0 +1,19 @@
+<resources>
+    <string name="test_app_name">MyAndroidTest</string>
+    <string name="test_welfare">福利</string>
+    <string name="test_about_us">关于我们</string>
+    <string name="test_logout">退出登录</string>
+
+
+    <string name="test_drawer_open">Open drawer</string>
+    <string name="test_drawer_close">Close drawer</string>
+
+    <array name="test_items">
+        <item>首页</item>
+        <item>第二页</item>
+        <item>第三页</item>
+        <item>第四页</item>
+    </array>
+
+
+</resources>

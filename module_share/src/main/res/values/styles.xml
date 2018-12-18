@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="share_AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/share_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/share_colorPrimaryDark</item>
+        <item name="colorAccent">@color/share_colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor">@color/share_colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/share_colorPrimaryDark</item>
+    </style>
+
+    <style name="share_AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="share_AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="share_AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

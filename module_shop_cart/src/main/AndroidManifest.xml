@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.framework.yison.module_shop_cart">
+
+    <application>
+        <activity android:name="com.framework.yison.module_shop_cart.activity.ShopCartActivity"/>
+
+        <activity android:name="com.framework.yison.module_shop_cart.activity.TestActivity"/>
+        <activity android:name="com.framework.yison.module_shop_cart.activity.ProductDetailActivity">
+        </activity>
+        <activity android:name="com.framework.yison.module_shop_cart.activity.LoginActivity">
+        </activity>
+    </application>
+
+</manifest>

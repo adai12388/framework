@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_str_video">视频</string>
+    <string name="share_str_audio">音频</string>
+    <string name="share_str_other">其他</string>
+    <string name="share_str_picture">图片</string>
+    <string name="share_str_ducment">文件</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- 热门 关注 -->
+        <com.flyco.tablayout.SlidingTabLayout
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/test_slideTabLayout_head_first"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_35"
+            android:layout_centerHorizontal="true"
+            app:tl_indicator_color="@color/account_color_orange_f59"
+            app:tl_indicator_width="@dimen/dp_10"
+            app:tl_textSelectColor="@color/account_color_orange_f59"
+            app:tl_textUnselectColor="@color/black">
+
+
+        </com.flyco.tablayout.SlidingTabLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/qmui_config_color_gray_5" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/test_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"></android.support.v4.view.ViewPager>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/test_float_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ic_camera" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/baseLib/alertview/alertview.iml" filepath="$PROJECT_DIR$/baseLib/alertview/alertview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/baseLib.iml" filepath="$PROJECT_DIR$/baseLib/baseLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/cockroach-x/cockroach-x.iml" filepath="$PROJECT_DIR$/baseLib/cockroach-x/cockroach-x.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component_base/component_base.iml" filepath="$PROJECT_DIR$/component_base/component_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component_data/component_data.iml" filepath="$PROJECT_DIR$/component_data/component_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/customview/customview.iml" filepath="$PROJECT_DIR$/baseLib/customview/customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/flowlayout-lib/flowlayout-lib.iml" filepath="$PROJECT_DIR$/baseLib/flowlayout-lib/flowlayout-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework.iml" filepath="$PROJECT_DIR$/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/kprogresshud/kprogresshud.iml" filepath="$PROJECT_DIR$/baseLib/kprogresshud/kprogresshud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_common_ui/module_common_ui.iml" filepath="$PROJECT_DIR$/module_common_ui/module_common_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_mydrawer/module_mydrawer.iml" filepath="$PROJECT_DIR$/module_mydrawer/module_mydrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_share/module_share.iml" filepath="$PROJECT_DIR$/module_share/module_share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_shop_cart/module_shop_cart.iml" filepath="$PROJECT_DIR$/module_shop_cart/module_shop_cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_shop_mall/module_shop_mall.iml" filepath="$PROJECT_DIR$/module_shop_mall/module_shop_mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_test/module_test.iml" filepath="$PROJECT_DIR$/module_test/module_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_welfare/module_welfare.iml" filepath="$PROJECT_DIR$/module_welfare/module_welfare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/videocompressV2/videocompressV2.iml" filepath="$PROJECT_DIR$/baseLib/videocompressV2/videocompressV2.iml" />
+    </modules>
+  </component>
+</project>

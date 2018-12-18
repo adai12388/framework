@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="share_colorPrimary">#F49423</color>
+    <color name="share_colorPrimaryDark">@color/grey_bar</color>
+    <color name="share_colorAccent">#F49423</color>
+    <color name="share_blue">#35B0FF</color>
+</resources>

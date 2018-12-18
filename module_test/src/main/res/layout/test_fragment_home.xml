@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <!-- 热门 关注 -->
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/test_slideTabLayout_head_first"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_35"
+        android:layout_below="@+id/test_title"
+        android:layout_centerHorizontal="true"
+        app:tl_indicator_width="@dimen/dp_10"
+        app:tl_indicator_color="@color/colorAccent"
+        app:tl_textSelectColor="@color/colorAccent"
+        app:tl_textUnselectColor="@color/black">
+
+
+    </com.flyco.tablayout.SlidingTabLayout>
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_below="@+id/test_slideTabLayout_head_first"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/qmui_config_color_gray_5" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/test_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view"></android.support.v4.view.ViewPager>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/test_float_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_camera" />
+
+</RelativeLayout>
